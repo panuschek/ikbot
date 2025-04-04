@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ikbot
+
+app:
+  google:
+    drive:
+      clientId: ''
+      clientSecret: ''
+
+ktgram:
+  bot:
+    - token: ''
