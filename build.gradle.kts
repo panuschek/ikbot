@@ -22,6 +22,8 @@ repositories {
 }
 
 dependencies {
+	implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.2")
+	implementation("org.springframework.cloud:spring-cloud-starter-openfeign:4.2.1")
 	implementation("com.google.api-client:google-api-client:2.7.2")
 	implementation("com.google.oauth-client:google-oauth-client-jetty:1.39.0")
 	implementation("com.google.apis:google-api-services-drive:v3-rev20220815-2.0.0")

@@ -3,6 +3,8 @@ spring:
     name: ikbot
 
 app:
+  calendar-client:
+    url: 'http://localhost:8081/public/'
   google:
     drive:
       clientId: ''
